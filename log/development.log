@@ -307,3 +307,523 @@ Started POST "/signup" for ::1 at 2022-12-13 04:19:10 +0100
   
 ActionController::RoutingError (No route matches [POST] "/signup"):
   
+Started GET "/" for ::1 at 2022-12-13 09:04:22 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (4.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (3.6ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 231ms (Views: 1.7ms | ActiveRecord: 21.0ms | Allocations: 7821)
+
+
+Started GET "/" for ::1 at 2022-12-13 09:04:24 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.4ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.4ms | Allocations: 659)
+
+
+Started GET "/" for ::1 at 2022-12-13 09:04:37 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.6ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.6ms | Allocations: 598)
+
+
+Started GET "/" for ::1 at 2022-12-13 09:04:37 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.6ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 6ms (Views: 0.5ms | ActiveRecord: 0.6ms | Allocations: 575)
+
+
+Started GET "/" for ::1 at 2022-12-13 09:22:44 +0100
+Started GET "/" for ::1 at 2022-12-13 09:22:44 +0100
+Processing by GreetingsController#index as HTML
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (1.8ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 163ms (Views: 0.2ms | ActiveRecord: 18.2ms | Allocations: 5207)
+
+
+  [1m[36mGreeting Load (1.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 139ms (Views: 0.1ms | ActiveRecord: 36.2ms | Allocations: 6300)
+
+
+Started GET "/" for ::1 at 2022-12-13 09:22:44 +0100
+Started GET "/" for ::1 at 2022-12-13 09:22:44 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (1.6ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 19ms (Views: 0.2ms | ActiveRecord: 1.6ms | Allocations: 583)
+
+
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.7ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 0.7ms | Allocations: 575)
+
+
+Started GET "/" for ::1 at 2022-12-13 09:25:23 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.3ms | Allocations: 593)
+
+
+Started GET "/" for ::1 at 2022-12-13 09:25:23 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.3ms | Allocations: 575)
+
+
+Started GET "/" for ::1 at 2022-12-13 09:32:14 +0100
+Started GET "/" for ::1 at 2022-12-13 09:32:14 +0100
+Processing by GreetingsController#index as HTML
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.9ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 118ms (Views: 0.1ms | ActiveRecord: 9.5ms | Allocations: 4706)
+
+
+  [1m[36mGreeting Load (1.1ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 115ms (Views: 0.1ms | ActiveRecord: 7.9ms | Allocations: 6171)
+
+
+Started GET "/" for ::1 at 2022-12-13 09:32:29 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 575)
+
+
+Started GET "/" for ::1 at 2022-12-13 09:32:29 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.4ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.4ms | Allocations: 575)
+
+
+Started GET "/" for ::1 at 2022-12-13 09:37:36 +0100
+Started GET "/" for ::1 at 2022-12-13 09:37:36 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.5ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.5ms | Allocations: 587)
+
+
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.4ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.4ms | Allocations: 575)
+
+
+Started GET "/" for ::1 at 2022-12-13 09:37:42 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.4ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.4ms | Allocations: 575)
+
+
+Started GET "/" for ::1 at 2022-12-13 09:37:42 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 575)
+
+
+Started GET "/" for ::1 at 2022-12-13 09:38:19 +0100
+Started GET "/" for ::1 at 2022-12-13 09:38:19 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (1.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 1.2ms | Allocations: 580)
+
+
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.3ms | Allocations: 575)
+
+
+Started GET "/" for ::1 at 2022-12-13 09:38:27 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 575)
+
+
+Started GET "/" for ::1 at 2022-12-13 09:38:27 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 575)
+
+
+Started GET "/" for ::1 at 2022-12-13 09:38:43 +0100
+Started GET "/" for ::1 at 2022-12-13 09:38:43 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.3ms | Allocations: 591)
+
+
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.3ms | Allocations: 575)
+
+
+Started GET "/" for ::1 at 2022-12-13 09:38:48 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 575)
+
+
+Started GET "/" for ::1 at 2022-12-13 09:38:48 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 575)
+
+
+Started GET "/" for ::1 at 2022-12-13 09:39:01 +0100
+Started GET "/" for ::1 at 2022-12-13 09:39:01 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 583)
+
+
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 575)
+
+
+Started GET "/" for ::1 at 2022-12-13 09:39:05 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 575)
+
+
+Started GET "/" for ::1 at 2022-12-13 09:39:05 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 575)
+
+
+Started GET "/" for ::1 at 2022-12-13 09:39:19 +0100
+Started GET "/" for ::1 at 2022-12-13 09:39:19 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 583)
+
+
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 575)
+
+
+Started GET "/" for ::1 at 2022-12-13 09:39:23 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 575)
+
+
+Started GET "/" for ::1 at 2022-12-13 09:39:23 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 575)
+
+
+Started GET "/" for ::1 at 2022-12-13 09:39:40 +0100
+Started GET "/" for ::1 at 2022-12-13 09:39:40 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 594)
+
+
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 575)
+
+
+Started GET "/" for ::1 at 2022-12-13 09:39:44 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 575)
+
+
+Started GET "/" for ::1 at 2022-12-13 09:39:44 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 575)
+
+
+Started GET "/" for ::1 at 2022-12-13 09:40:02 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.4ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.4ms | Allocations: 575)
+
+
+Started GET "/" for ::1 at 2022-12-13 09:40:03 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 575)
+
+
+Started GET "/" for ::1 at 2022-12-13 09:40:06 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 575)
+
+
+Started GET "/" for ::1 at 2022-12-13 09:40:07 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 575)
+
+
+Started GET "/" for ::1 at 2022-12-13 09:40:18 +0100
+Started GET "/" for ::1 at 2022-12-13 09:40:18 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.3ms | Allocations: 594)
+
+
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.4ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.4ms | Allocations: 575)
+
+
+Started GET "/" for ::1 at 2022-12-13 09:48:20 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (1.9ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 118ms (Views: 0.3ms | ActiveRecord: 13.4ms | Allocations: 3418)
+
+
+Started GET "/" for ::1 at 2022-12-13 09:48:20 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.3ms | Allocations: 575)
+
+
+Started GET "/" for ::1 at 2022-12-13 11:53:19 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (2.5ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 143ms (Views: 0.3ms | ActiveRecord: 24.4ms | Allocations: 3418)
+
+
+Started GET "/" for ::1 at 2022-12-13 11:53:19 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.5ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 0.5ms | Allocations: 575)
+
+
+Started GET "/" for ::1 at 2022-12-13 12:01:42 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (1.8ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 104ms (Views: 0.2ms | ActiveRecord: 11.6ms | Allocations: 3418)
+
+
+Started GET "/" for ::1 at 2022-12-13 12:01:43 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 575)
+
+
+Started GET "/" for ::1 at 2022-12-13 12:01:43 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.4ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.4ms | Allocations: 575)
+
+
+Started GET "/" for ::1 at 2022-12-13 12:01:43 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.4ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.4ms | Allocations: 575)
+
+
+Started GET "/" for ::1 at 2022-12-13 12:01:43 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.4ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.4ms | Allocations: 575)
+
+
+Started GET "/" for ::1 at 2022-12-13 12:08:21 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (3.4ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 158ms (Views: 0.5ms | ActiveRecord: 26.8ms | Allocations: 3417)
+
+
+Started GET "/" for ::1 at 2022-12-13 12:08:21 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.4ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.4ms | Allocations: 575)
+
+
+Started GET "/" for ::1 at 2022-12-13 12:08:21 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.4ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.4ms | Allocations: 575)
+
+
+Started GET "/" for ::1 at 2022-12-13 12:08:21 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.4ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.4ms | Allocations: 575)
+
+
+Started GET "/" for ::1 at 2022-12-13 12:47:01 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (32.9ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 150ms (Views: 0.4ms | ActiveRecord: 45.2ms | Allocations: 3417)
+
+
+Started GET "/" for ::1 at 2022-12-13 12:47:01 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 5ms (Views: 0.1ms | ActiveRecord: 0.3ms | Allocations: 575)
+
+
+Started GET "/" for ::1 at 2022-12-13 12:47:25 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 575)
+
+
+Started GET "/" for ::1 at 2022-12-13 12:47:25 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 575)
+
+
+Started GET "/" for ::1 at 2022-12-13 12:47:28 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 575)
+
+
+Started GET "/" for ::1 at 2022-12-13 12:47:28 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 575)
+
+
+Started GET "/" for ::1 at 2022-12-13 12:47:31 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 575)
+
+
+Started GET "/" for ::1 at 2022-12-13 12:47:31 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 575)
+
+
+Started GET "/" for ::1 at 2022-12-13 13:16:57 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (2.7ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 107ms (Views: 0.2ms | ActiveRecord: 9.9ms | Allocations: 7815)
+
+
+Started GET "/" for ::1 at 2022-12-13 13:16:57 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.4ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.4ms | Allocations: 659)
+
+
+Started GET "/" for ::1 at 2022-12-13 13:17:01 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.4ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.4ms | Allocations: 598)
+
+
+Started GET "/" for ::1 at 2022-12-13 13:17:01 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.4ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.4ms | Allocations: 575)
+
+
+Started GET "/" for ::1 at 2022-12-13 13:17:13 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.6ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 12ms (Views: 0.3ms | ActiveRecord: 0.6ms | Allocations: 593)
+
+
+Started GET "/" for ::1 at 2022-12-13 13:17:13 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 8ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 593)
+
+
+Started GET "/" for ::1 at 2022-12-13 13:18:03 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 12ms (Views: 4.3ms | ActiveRecord: 0.2ms | Allocations: 593)
+
+
+Started GET "/" for ::1 at 2022-12-13 13:18:51 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 575)
+
+
+Started GET "/" for ::1 at 2022-12-13 13:18:51 +0100
+Processing by GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/greetings_controller.rb:3:in `index'
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 575)
+
+

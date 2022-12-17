@@ -1,88 +1,72 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+![default-monochrome](https://user-images.githubusercontent.com/56429354/205527587-ac4a2eee-a331-4493-ab17-744ae465e646.svg#gh-light-mode-only)
+![default](https://user-images.githubusercontent.com/56429354/205528723-bced613e-619a-4c0f-aa30-e4c53ce7e501.svg#gh-dark-mode-only)
 
-# hello-rails-back-end
+>Book car is a platform to book a car that is present in different cities for a given period of time. The user selects the duration of rental per car model type and price range. if a user is an admin he can manage the car resources by updating the list of cars in the database.
 
-> Implement a connection between a Ruby on Rails back-end and React front-end.
+## Frontend Repository
+[GitHub Link](https://github.com/chumaachike/hello-react-front-end.git)
 
-[Link to React front end](https://github.com/chumaachike/hello-react-front-end)
+# [Swagger API Doc](https://carbackend.onrender.com/api-docs/index.html)
+![screencapture-localhost-3000-api-docs-index-html-2022-11-29-01_53_41](https://user-images.githubusercontent.com/56429354/204413873-1215219b-6fb2-4d4b-9ece-9d87e658d8d6.png)
 
-
-## Built With
+### Built With
 
 - Ruby on Rails
-- Postgresql
-
-
-## Live Demo (if available)
-
-
-## Getting Started
-
-To get a local copy, follow these simple steps.
-
-### Prerequisites
-
-Web browser installed
+- Development set up
+- Rails API only
 
 ### Setup
 
-Cloning a repository
+- Open your terminal and navigate to the folder you would like to save the project.type the following commands to your terminal 
 
-- On GitHub.com, navigate to the main page of the repository;
+```
+git clone git@github.com:chummaachike/hello-rails-back-end.git
+```
 
-- Above the list of files, click "Code" button;
+- Move into project directory
 
-- Copy the URL to clone the repository. 
+```
+cd hello-rails-back-end
+```
 
-  - To clone the repository using HTTPS : `https://github.com/chumaachike/hello-rails-back-end.git`
+### Available Scripts
 
-  - To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority : `git@github.com:ElsonOtake/hello-rails-back-end.git`
+```
+bundle install && rails db:create db:migrate db:seed 
+```
 
-  - To clone a repository using GitHub CLI : `gh repo clone chumaachike/hello-rails-back-end`
+### Then bootup your database by running the following command 
 
-- Open Terminal;
-
-- Change the current working directory to the location where you want the cloned directory;
-
-- Type `git clone`, and then paste the URL you copied earlier;
-
-- Change the current working directory to the location of your cloned directory;
-
-- Run `bundle install`;
-
-- Run `rails db:create db:migrate db:seed`
-
-- Run `rails server`;
+```
+rails server
+```
 
 
-## Author
+### Testing
+
+```
+rake rswag
+```
+
+## Authors
 
 👤 **Achike Chuma Edward**
 
 - GitHub: [@chumaachike](https://github.com/chumaachike)
 - Twitter: [@AchikeChuma](https://twitter.com/AchikeChuma)
-- LinkedIn: [Edward Achike](https://www.linkedin.com/in/edward-achike-903432111/)
-
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/edward-achike-903432111/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
-
+Feel free to check the [issues page](https://github.com/chumaachike/hello-rails-back-end/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
 
-## Acknowledgments
-
-- Microverse
-- W3Schools
-- Stack Overflow
-
-
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](https://github.com/Gedewon/hello-rails-back-end/blob/dev/LICENSE) licensed.
